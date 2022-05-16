@@ -64,4 +64,4 @@ Use your knowledge of Python, Pandas, the ETL process, code refactoring, and Pos
 
 1. The data from the `movies_df` DataFrame replaces the current data in the movies table in the SQL database, as determined by the `movies_query.png`.
 2. The data from the MovieLens rating CSV file is added to the `ratings` table in the SQL database, as determined by the `ratings_query.png`.
-3. ​The elapsed time to add the data to the database is displayed in the `ETL_create_database.ipynb` file.
+3. The elapsed time to add the data to the database is displayed in the `ETL_create_database.ipynb` file.

@@ -22,6 +22,13 @@ Using your knowledge of Python, Pandas, the ETL process, and code refactoring, w
 3. The function converts the Kaggle metadata file to a Pandas DataFrame, and the DataFrame is displayed in the `ETL_function_test.ipynb file`.
 4. The function converts the MovieLens ratings data file to a Pandas DataFrame, and the DataFrame is displayed in the `ETL_function_test.ipynb` file.
 
+![name-of-you-image](https://github.com/DataJew/Movies-ETL/blob/main/Resources/images/Deliverable%201/wiki_movies_df.png)
+
+![name-of-you-image](https://github.com/DataJew/Movies-ETL/blob/main/Resources/images/Deliverable%201/kaggle_metadata.png)
+
+![name-of-you-image](https://github.com/DataJew/Movies-ETL/blob/main/Resources/images/Deliverable%201/ratings_df.png)
+
+
 ## Deliverable 2: Extract and Transform the Wikipedia Data
 ### Deliverable Requirements:
 Using your knowledge of Python, Pandas, the ETL process, and code refactoring, extract and transform the Wikipedia data so you can merge it with the Kaggle metadata. While extracting the IMDb IDs using a regular expression string and dropping duplicates, use a `try-except` block to catch errors.
@@ -39,6 +46,11 @@ Using your knowledge of Python, Pandas, the ETL process, and code refactoring, e
         3. The release date column
         4. The running time column​
 4. The cleaned Wikipedia data is converted to a Pandas DataFrame, and the DataFrame is displayed in the `ETL_clean_wiki_movies.ipynb` file.
+
+![name-of-you-image](https://github.com/DataJew/Movies-ETL/blob/main/Resources/images/Deliverable%202/wiki_movies_df.png)
+
+![name-of-you-image](https://github.com/DataJew/Movies-ETL/blob/main/Resources/images/Deliverable%202/wiki_movies_df_columns.png)
+
 
 ## Deliverable 3: Extract and Transform the Kaggle Data
 ### Deliverable Requirements:
@@ -58,6 +70,11 @@ Using your knowledge of Python, Pandas, the ETL process, and code refactoring, e
     3. The empty values in the `movies_with_ratings_df` DataFrame are filled with “0”.
 3. The `movies_with_ratings_df` and the `movies_df DataFrames` are displayed in the `ETL_clean_kaggle_data.ipynb` file.
 
+![name-of-you-image](https://github.com/DataJew/Movies-ETL/blob/main/Resources/images/Deliverable%203/movies_df.png)
+
+![name-of-you-image](https://github.com/DataJew/Movies-ETL/blob/main/Resources/images/Deliverable%203/movies_with_ratings_df.png)
+
+
 ## Deliverable 4: Create the Movie Database
 ### Deliverable Requirements:
 Use your knowledge of Python, Pandas, the ETL process, code refactoring, and PostgreSQL to add the `movies_df` DataFrame and MovieLens rating CSV data to a SQL database.
@@ -65,3 +82,9 @@ Use your knowledge of Python, Pandas, the ETL process, code refactoring, and Pos
 1. The data from the `movies_df` DataFrame replaces the current data in the movies table in the SQL database, as determined by the `movies_query.png`.
 2. The data from the MovieLens rating CSV file is added to the `ratings` table in the SQL database, as determined by the `ratings_query.png`.
 3. The elapsed time to add the data to the database is displayed in the `ETL_create_database.ipynb` file.
+
+![name-of-you-image](https://github.com/DataJew/Movies-ETL/blob/main/Resources/images/movies_query.PNG)
+
+![name-of-you-image](https://github.com/DataJew/Movies-ETL/blob/main/Resources/images/rating_query.PNG)
+
+![name-of-you-image](https://github.com/DataJew/Movies-ETL/blob/main/Resources/images/rating_query2.PNG)
